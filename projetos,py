@@ -1,0 +1,23 @@
+
+def main():
+    #entrada
+    valor = float(input('valor (R$):'))
+    meses = int(input('prazo (meses:'))
+    taxa = 0.89 / 100
+    valor_acumulado = 0
+
+    #processamento 
+    for i in range(meses):
+        valor_acumulado = valor_acumulado + valor 
+        juros = valor_acumulado * taxa
+        valor_acumulado = valor_acumulado + juros
+        
+    #saida
+    valor_investido = meses * valor 
+    rendimento = valor_acumulado - valor_investido
+    print(f'seu saldo será de R$ {valor_acumulado:.2f}')
+    print(f'valor investido: R$ {valor_investido:.2f}')
+    print(f'seu rendimento: R$ {rendimento:.2f}')
+    
+
+main()
