@@ -17,7 +17,9 @@ def main():
     rendimento = valor_acumulado - valor_investido
     print(f'seu saldo será de R$ {valor_acumulado:.2f}')
     print(f'valor investido: R$ {valor_investido:.2f}')
-    print(f'seu rendimento: R$ {rendimento:.2f}')
+    print(f'seu rendimento: R$ {rendimento:.2f}') 
+    #fwefsdfsdfsdfsdwerwerwerwerwerc
+
     
 
 main()
